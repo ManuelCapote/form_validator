@@ -20,27 +20,28 @@
             <!-- Full Name -->
             <div class="form-group">
                 <label for="name">Full Name</label>
-                <input required type="text" id="name" placeholder="Full Name">
+                <input name="name" required type="text" id="name" placeholder="Full Name">
             </div>
             <!-- Phone Number -->
             <div class="form-group">
                 <label for="phone">Phone Number</label>
-                <input required type="tel" id="phone" placeholder="000 000 0000" pattern="[0-9]{3} [0-9]{3} [0-9]{4}">
+                <input name="phone" required type="tel" id="phone" placeholder="000 000 0000"
+                    pattern="[0-9]{3} [0-9]{3} [0-9]{4}">
             </div>
             <!-- Email Address -->
             <div class="form-group">
                 <label for="email">Email Address</label>
-                <input required type="email" id="email" placeholder="email@address.com">
+                <input name="email" required type="email" id="email" placeholder="email@address.com">
             </div>
             <!-- Website URL -->
             <div class="form-group">
                 <label for="website">Website URL</label>
-                <input required type="url" id="website" placeholder="Website URL">
+                <input name="website" required type="url" id="website" placeholder="Website URL">
             </div>
             <!-- Password -->
             <div class="form-group">
                 <label for="password1">Password</label>
-                <input required type="password" id="password1" placeholder="Create Password"
+                <input name="password" required type="password" id="password1" placeholder="Create Password"
                     pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
                     title="at least 1 uppercase, 1 lowercase, 1 number">
             </div>
